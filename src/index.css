@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  width: 1400px;
+  height: 100vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(228, 232, 236);
+}
+.div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.styleName{
+  color:cadetblue;
+  font-style: italic;
+  font-weight: 400;
+}
